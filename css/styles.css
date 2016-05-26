@@ -1,3 +1,16 @@
-.letter {
+body {
+  background-color: #ffd9b3;
+}
+
+.sig {
+  font-family: cursive;
+  font-size: 3rem;
+}
+
+.titles {
+  font-weight: bold;
+}
+
+#letter {
   display: none;
 }

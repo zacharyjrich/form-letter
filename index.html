@@ -19,37 +19,40 @@
 
         <h1>Letters to you, from you</h1>
           <div id="blanks">
-            <div class="form-group">
-              <label for="name">Your name</label>
-              <input id="name" class="form-control" type="text">
-            </div>
-            <div class="form-group">
-              <label for="date">Today's date</label>
-              <input id="date" class="form-control" type="text">
-            </div>
-            <div class="form-group">
-              <label for="address">Your street address</label>
-              <input id="address" class="form-control" type="text">
-            </div>
-            <div class="form-group">
-              <label for="city">Your city</label>
-              <input id="city" class="form-control" type="text">
-            </div>
-            <div class="form-group">
-              <label for="state">Your state</label>
-              <input id="state" class="form-control" type="text">
-            </div>
-            <div class="form-group">
-              <label for="zip">Your zip</label>
-              <input id="zip" class="form-control" type="text">
-            </div>
+            <form>
+              <div class="form-group">
+                <label for="name">Your name</label>
+                <input id="name" class="form-control" type="text">
+              </div>
+              <div class="form-group">
+                <label for="date">Today's date</label>
+                <input id="date" class="form-control" type="text">
+              </div>
+              <div class="form-group">
+                <label for="address">Your street address</label>
+                <input id="address" class="form-control" type="text">
+              </div>
+              <div class="form-group">
+                <label for="city">Your city</label>
+                <input id="city" class="form-control" type="text">
+              </div>
+              <div class="form-group">
+                <label for="state">Your state</label>
+                <input id="state" class="form-control" type="text">
+              </div>
+              <div class="form-group">
+                <label for="zip">Your zip</label>
+                <input id="zip" class="form-control" type="text">
+              </div>
+              <button type="submit" class="btn btn-danger">Ceate my letter!</button>
+            </form>
           </div>
 
-          <div class="letter">
-            <p>Name: <span class="name1"></span></p>
-            <p>Address: <span class="address1"></span></p>
-            <p><span class="city1"></span>, <span class="state1"></span> <span class="zip1"></span></p>
-            <p>Date: <span class="date1"></span></p>
+          <div id="letter">
+            <p class="titles">Name: <span class="name1"></span></p>
+            <p class="titles">Address: <span class="address1"></span></p>
+            <p class="titles"><span class="city1"></span>, <span class="state1"></span> <span class="zip1"></span></p>
+            <p class="titles">Date: <span class="date1"></span></p>
 
             <p>To Whom It May Concern:</p>
 
@@ -58,7 +61,7 @@
             <p>Pariatur slow-carb quis gluten-free typewriter, narwhal duis est. Actually 8-bit food truck umami sed chartreuse. Chia do delectus 8-bit. Artisan eu ullamco, kinfolk commodo food truck blue bottle aute reprehenderit church-key cillum locavore vegan voluptate yuccie. Retro nihil assumenda roof party affogato tattooed elit chartreuse. Butcher small batch lo-fi, fanny pack tilde post-ironic banjo assumenda master cleanse. Laboris ethical tofu, flexitarian man bun tempor cillum veniam.</p>
 
             <p>Sincerely,</p>
-            <p><span class="name1"></span></p>
+            <p class="sig"><span class="name1"></span></p>
           </div>
         </div>
 
